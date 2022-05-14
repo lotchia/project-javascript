@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="favourite.css">
+</head>
+<body>
+    <div class="one">
+        <div class="topnav">
+              <p class="two">FURNITURE</p>
+              <a class="active" href="../home/home.html">Home</a>
+              <a href="../mohamed/index.html">Product</a>
+              <a href="../about/pro.html">About</a>
+              <a href="../sign in/sign.html">Sign in</a>
+            </div>
+            <div class="three"></div>
+    <table border="1">
+        <thead>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            
+        </thead>
+        
+        <tbody id="haha">
+            
+            <!-- <td id="hahaa"></td> -->
+        </tbody>
+    </table>
+    </div>
+    <script src="./product.js"></script>
+    <script>
+        
+        function read(){
+        
+            // let get = document.createElement("tr");
+            let getproducts=(localStorage.getItem("Products"));
+            let gets=JSON.stringify(getproducts)
+            gets.forEach(element => {
+                console.log(gets[element])
+            });
+            
+            // favouritess.appendChild(get);
+        }
+        read()
+
+    </script>
+    
+    
+    
+</body>
+</html>

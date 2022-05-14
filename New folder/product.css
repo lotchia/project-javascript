@@ -1,0 +1,351 @@
+.one
+{
+    height: 2500px;
+
+font-size: 20px;
+
+}
+.two
+{
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+    margin-left: 80px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #5f5a40;
+    color: white;
+  }
+  .active
+  {
+      margin-left: 50%;
+  }
+  .three
+  {
+    background-image: url("273277602_6962272950510113_5902025105489996833_n.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position:center;
+    height: 600px;
+    display: flex;
+  }
+  .all
+  {
+      
+      display: flex;
+      margin-top: 20px;
+      background-color: rgb(190, 212, 217);
+  }
+  .four
+  {
+      display: fixed;
+      margin-top: 40px; 
+      width: 250px;
+      height: 850px;
+      background-color: rgb(218, 227, 227);
+      margin-left: 90px;
+      border:2px  rgb(227, 217, 217) solid;
+  }
+  .five
+
+  {
+     
+      background-color: #333;
+      color: white;
+      width: 240px;
+      display: inline-block;
+      margin-top: 10px;
+      height: 30px;
+      padding-top: 3px;
+     text-align: center;
+     margin-left: 6px;
+     
+  }
+  .six
+  {
+      
+      margin-left: 22px;
+
+  }
+ .seven
+ {
+     font-size: 18px;
+     list-style-type: square; 
+ }
+ .eight
+ {
+     margin-left:22px ;
+ }
+ .nine 
+ {
+     border: 2px rgb(227, 217, 217) solid ;
+     margin-left: 5px;
+ }
+ .ten 
+ {
+     display: flex;
+     margin-left: 30px;
+ }
+ .bllue ,.yelloww ,.blackk ,.greenn ,.grayy ,.redd ,.brownn ,.bink ,.babbyblue ,.aqua ,.rosegold ,.vanilla ,.cafee ,.milk
+ {
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    background-color: #5249bc;
+  
+ }
+ .yelloww ,.blackk  ,.greenn ,.grayy ,.redd ,.brownn ,.bink ,.babbyblue ,.aqua ,.rosegold ,.vanilla ,.cafee ,.milk
+ {
+    background-color: yellow;
+    margin-left: 12px;
+ }
+ .blackk
+ {
+    background-color: black;
+ }
+ .greenn
+ {
+    background-color:rgb(19, 94, 19);
+}
+.grayy
+{
+    background-color:gray;
+}
+.redd
+{
+    background-color:red;
+}
+ .brownn
+ {
+     background-color: brown;
+ }
+ .bink
+ {
+    background-color: rgb(242, 65, 165);
+ }
+ .aqua
+ {
+    background-color: aqua;
+ }
+ .rosegold
+ {
+    background-color: rgb(231, 158, 220);
+ }
+ .babbyblue
+ {
+    background-color: rgb(81, 99, 218);
+ }
+ .vanilla
+ {
+    background-color: rgb(228, 236, 216);
+ }
+ .cafee
+ {
+    background-color: rgb(230, 230, 124);
+ }
+ .milk
+ {
+    background-color: rgb(232, 232, 181);
+ }
+.eleven
+{
+    display: flex;
+    margin-left: 17px ;
+    margin-top: 20px;
+}
+.twelve
+{
+    width: 70px;
+    height:  70px;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+.thirteen
+{
+    display: flex;
+}
+.fourr
+{
+      width: 250px;
+      height: 2500px;
+      background-color: rgb(218, 227, 227);
+      margin-left: 90px;
+      border:2px  rgb(227, 217, 217) solid;
+      margin-top: 40px;
+}
+ #search-container
+ {
+     margin:  1em 0;
+     margin-top: 40px;
+     margin-left: 200px;
+ }
+ #search-input
+ {
+     background-color: transparent;
+     border-bottom:2px solid black;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     width: 400px;
+     padding: .3em 0.3em;
+ }
+ #search-container input :focus
+ {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+     border-bottom-color: aqua;
+ }
+.filtercondition
+{
+  margin-top: 40px;
+  margin-left: 200px;
+  padding: 10px;
+  height: 100px;
+}
+.filtercondition select
+{
+   width: 120px;
+   padding:  0 0 0 10px;
+   border: none;
+   font-weight: bold;
+   background-color: transparent;
+   color:#5249bc
+   cursor: pointer;
+}
+
+#search-container button 
+{
+        /* padding: 0.4em 2em; */
+        margin-left: 1em;
+        background-color: #6759ff;
+        color: #ffffff;
+        border-radius: 5px;
+        margin-top: 0.5em;
+}
+
+.button-value 
+{
+        border: 2px solid #6759ff;
+         padding: 1em 2.2em; 
+        border-radius: 3em;
+        background-color: transparent;
+        color: #6759ff;
+        cursor: pointer;
+}
+.active {
+    background-color: #6759ff;
+    color: #ffffff;
+  }
+  #products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+  }
+  .card {
+    margin-left: 13px;
+    background-color: #ffffff;
+    height: 400px;
+    /* max-width: 15em; */
+    width: 300px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1em 0.2em 2.5em rgba(1, 2, 68, 0.08);
+  }
+  .image-container {
+    text-align: center;
+  }
+  img {  
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+  }
+  .container {
+    padding-top: 0px;
+    margin-top: -20px;
+    color: #110f29;
+  }
+  .container h5 {
+    font-weight: 500;
+    
+    
+  }
+  .container h6
+  {
+   
+    border: 2px solid white;
+   
+    width: 80px;
+    height: 20px;
+    border-radius: 10%;
+    text-align: center;
+    margin-top: -20px;
+  
+  }
+   .container button
+   {
+     display: flex;
+   }
+    #btnone 
+  {
+      text-align: center;
+      display: flex;
+      background-color: #333;
+      color: #ddd;
+      margin-top: -20px;
+      border-radius: 3em;
+      padding: 3px;
+      cursor: pointer;
+      
+  } 
+  #btntwo
+  {
+    background-color: #333;
+    color: #ddd;
+    margin-top: -25px;
+    border-radius: 3em;
+    margin-left: 90px;
+    border-radius: 3em;
+    padding: 3px;
+    cursor: pointer;
+  }
+  
+  .hide {
+    display: none;
+  }
+  @media screen and (max-width: 720px) {
+    img {
+      max-width: 100%;
+      object-fit: contain;
+      height: 10em;
+    }
+    .card {
+      max-width: 10em;
+      margin-top: 1em;
+    }
+    #products {
+      grid-template-columns: auto auto;
+      grid-column-gap: 1em;
+    }
+  }

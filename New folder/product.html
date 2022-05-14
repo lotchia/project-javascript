@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <style>td,th{border: 1px solid;}</style>
+  </head>
+  <body>
+    <div class="one">
+      <div class="topnav">
+            <p class="two">FURNITURE</p>
+            <a class="active" href="../home/home.html">Home</a>
+            <a href="../mohamed/index.html">Product</a>
+            <a href="../about/pro.html">About</a>
+            <a href="../sign in/sign.html">Sign in</a>
+          </div>
+          <div class="three"></div>
+          <button type="button" onclick="itemstable()" class="open" id="openitems" style="position: fixed;top: 10px;background-color: #6759ff;
+          color: #ffffff;padding: 15px;border: none;
+          border-radius: 50%;cursor: pointer;
+          margin-top: 0.5em;">items +</button>
+          <div class="hid" style="position: fixed;top: 10px;left: 20px;height: 100px; display: block;
+          height: 250px;
+          overflow-y: scroll;;display: none;background-color: rgb(190, 212, 217);color: rgb(7, 39, 133);">
+          <table style="border: 1px solid;" >
+            <thead>
+                <th>Checked all</th>
+                <th>Image</th>
+                
+                <th>Name</th>
+                <th>Price</th>
+                <th>Count</th>
+                <th>Total Price For This item </th>
+                <th>Remove</th>
+            </thead>
+            
+            <tbody>
+               
+            </tbody>
+            <tr>
+                <td><h3>Total Price</h3></td>
+                <td  class="total"><h3>$0</h3></td>
+            </tr>
+          </table>
+          </div>
+          <div class="all">
+            <div>
+              <div class="four">
+                <p class="five"> shop by</p>
+                <h4 class="six">CATEOORY</h4>
+                <ul class="seven">
+                   <li>table</li> 
+                   <li>sofa</li> 
+                   <li>cupboard</li> 
+                   <li>chair</li> 
+                  </ul>
+                <hr>
+                <h4 class="eight">price</h4>
+                <label for="vol" style="font-size: 15px;">Volume (between 40$ and 4000$):</label>
+               <input type="range"  name="vol" min="40" max="4000" id="pricevalue">
+               <button   style="background-color: #6759ff;
+               color: #ffffff;
+               border-radius: 5px;
+               margin-top: 0.5em;" onclick="getprice()" id="butt" >search by </button>
+                <hr>
+                <h4 class="eight">choose color</h4>
+               
+                <div class="eleven">
+                  <div class="bink" onclick='choosecolor("blue")'> </div>
+                  <div class="babbyblue"> </div>
+                  <div class="aqua"> </div>
+                  <div class="rosegold"> </div>
+                  <div class="vanilla"> </div>
+                  <div class="cafee"> </div>
+                  <div class="white"> </div>
+                </div>
+                <hr>
+                <div>
+                  <h4 class="eight">BEST SALARES</h4>
+
+                  <div class="thirteen" >
+                    <img class="twelve" src="sofa1.jpg"/>
+                    <p style="font-size: 15px; margin-left:3px;">Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="thirteen"  >
+                    <img class="twelve" src="bed5.jpg"/>
+                    <p style="font-size: 15px; margin-left:3px;">Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="thirteen" >
+                  <img class="twelve" src="sofa2.jpg"/>
+                  <p style="font-size: 15px; margin-left:3px;">Lorem ipsum dolor sit amet consectetur.</p>
+
+                  </div>
+                  
+                  
+                </div>
+              </div>
+              
+                <div class="fourr">
+                  <h4 class="five">Materials</h4>
+                  <ul>
+                    <li>Wood</li>
+                    <p style="font-size: 15px;"> Wood is the material most often used for making furniture. Although there are over a hundred different kinds that can be 
+                      used for furniture, some woods have natural properties that make them superior to the others.</p>
+                    <li>Metal</li>
+                    <p style="font-size: 15px;">Metals have been used since antiquity for making and ornamenting furniture. 
+                      Splendid Egyptian pieces, such as the thrones and stool that were found in the tomb of the youthful</p>
+                      <li>Leather</li>
+                      <p  style="font-size: 15px;">Leather is a strong, flexible and durable material obtained from the tanning, or chemical treatment, of animal skins and hides 
+                        to prevent decay. The most common leathers come from cattle, sheep, goats, equine animals, buffalo, pigs and hogs, and aquatic animals such as seals and alligators.[1][2]
+
+                        Leather can be used to make a variety of items, including clothing, footwear, handbags, furniture, tools and sports equipment, 
+                        and lasts for decades. Leather making has been practiced for more than 7,000 years and the leading producers of leather today are China and India.[1][2][3]
+                        
+                        Animal rights groups claim that modern commercial leather making and the consumption of its products is unethically killing animals.[4] According to the life-cycle assessment (LCA) report for the United Nations Industrial Development Organization, 99% of the raw hides and skins used in the production of leather derive from animals raised for meat and/or dairy production.[5]
+                        
+                        Critics of tanneries claim that they engage in unsustainable practices that pose health hazards to the people and the environment near them.[6] The processing stages of tanneries use thousands of liters of water for one hide or animal skin and release toxic liquid waste into the environment that can cause soil depletion and health issues related to the human skin, respiratory system and more. However,
+                         advancements have been made in the amount and treatment of water used by tanneries to reduce impact.[7]
+
+                      </p>
+                      
+                    <li>Other materials</li>
+                    <p style="font-size: 15px;">Among other secondary materials in furniture making, glass has been used in the form of mirrorglass or as a purely decorative,
+                       illusionistic element in cabinets and writing desks</p>
+                    <li>Carving</li>
+                    <p style="font-size: 15px;"> There are examples of furniture carving in Egypt at the time of the pyramids: animal legs of cedarwood on biers, beds,
+                       and chairs; and ducks’ heads terminating the legs
+                       of folding stools. Elegant carved headrests took the place of pillows in this hot climate.</p>
+                    <li>Turned work</li>
+                    <p style="font-size: 15px;">Turned is a process by which parts of furniture, such as legs and posts, are shaped while turning on a lathe.
+                       Turned work is found on Greco-Roman furniture. It is not certain whether the technique was actually employed in Egyptian furniture, though some members look as though they might have been turned.
+                       It was particularly in the shaping of wooden chair legs that Greek joiners used the lathe;</p>
+                       <li>Inlay and marquetry</li>
+                       <p style="font-size: 15px;">Inlaid woodwork, in which decorative material such as wood or ivory is set into the surface of the veneer, 
+                        has accompanied the art of furniture making for thousands of years. Ivory inlay can be seen in Egyptian furniture, particularly in small,
+                         meticulously executed toilet caskets, but it is difficult to locate in Greek and Roman 
+                        furniture, today known almost exclusively from pictorial representations.</p>
+                  </ul>
+                </div>
+            
+          </div> 
+            <div>
+             <div style="display: flex;"> 
+              <div id="search-container">
+                <input type="search" id="search-input" placeholder="search product name here" />
+                <button id="search">search</button>
+               </div>
+               <div class="filtercondition"> 
+                 <span style="font-size: 18px;">View As</span>
+                 <select name="" id="select">
+                  
+                   <option value="lowtohigh" onclick="lowtohigh()">low To high</option>
+                 
+                 </select>
+                    
+               </div>
+              </div>
+            <div id="buttons">
+              <button class="button-value" onclick="filterProduct('all')">
+                All
+              </button>
+                <button class="button-value" onclick="filterProduct('sofa')">
+                  sofa
+                </button>
+                <button class="button-value" onclick="filterProduct('chair')">
+                  chair
+                </button>
+                <button class="button-value" onclick="filterProduct('bed')">
+                    Bed
+                </button>
+                <button class="button-value" onclick="filterProduct('table')">
+                    tables
+                </button>
+            </div>
+          
+            <div id="products"></div>
+         </div>
+        </div>
+        <script src="product.js"></script>
+</html>
+</body>
